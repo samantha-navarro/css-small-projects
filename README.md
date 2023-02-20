@@ -7,3 +7,6 @@ mini projects to help with advancing my CSS skills
 
 2. wildlife photography
    = CSS Grid skills
+
+3. Home Sales
+    = CSS Grid skills
