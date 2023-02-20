@@ -55,7 +55,7 @@ main {
 
 .card-container {
   display: grid;
-  grid-template: repeat(2, 1fr);
+  grid-template: auto / repeat(2, auto);
   grid-template-areas:
     'card-one card-two'
     'card-three card-four';
