@@ -1,0 +1,115 @@
+* {
+  font-family: monospace;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+    display: grid;
+    gap: 0px 50px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+.nav-container {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: indigo;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  width: max-content;
+}
+
+img {
+  height: auto;
+  width: 250px;
+}
+
+button {
+  background-color: rgb(82, 5, 82);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+  height: 23px;
+  width: 115px;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template: repeat(2, 1fr);
+  grid-template-areas:
+    'card-one card-two'
+    'card-three card-four';
+  gap: 40px 40px;
+}
+
+.home-card-1 {
+  grid-area: card-one;
+}
+
+.home-card-2 {
+  grid-area: card-two;
+}
+
+.home-card-3 {
+  grid-area: card-three;
+}
+
+.home-card-4 {
+  grid-area: card-four;
+}
+
+.image {
+  grid-area: image;
+}
+
+.like-button {
+  grid-area: button-one;
+}
+
+.tour {
+  grid-area: button-two;
+}
+
+.description {
+  grid-area: description;
+  margin-top: 5px;
+}
+
+.address {
+  grid-area: address;
+}
+
+.home-card-1,
+.home-card-2,
+.home-card-3,
+.home-card-4 {
+  display: grid;
+  grid-template-columns: 125px 125px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'image image'
+    'button-one button-two'
+    'description description'
+    'address address';
+    gap: 5px 10px;
+}
