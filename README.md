@@ -1,5 +1,9 @@
 # css-small-projects
+
 mini projects to help with advancing my CSS skills
 
 1. sudoku puzzle
-+ CSS Grid skills
+   = CSS Grid skills
+
+2. wildlife photography
+   = CSS Grid skills
